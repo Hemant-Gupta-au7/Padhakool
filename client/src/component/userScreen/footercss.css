@@ -1,0 +1,29 @@
+/* ------------------------------------LAPTOP VERSION----------------------------------------------- */
+@media only screen and (min-width: 1010px) {
+  .tabversion {
+    display: none;
+  }
+}
+
+/* ------------------------------------MOBILE VERSION----------------------------------------------- */
+
+@media only screen and (max-width: 1010px) {
+  .display_data {
+    display: none;
+  }
+}
+
+/* @media only screen and (min-device-width: 800px) and (max-device-width: 1802px) {
+  .display_data {
+    display: none;
+  }
+  .mobile_view {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1802px) {
+  .display_data {
+    display: none;
+  }
+} */
