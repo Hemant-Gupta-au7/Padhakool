@@ -1,9 +1,10 @@
 var express = require("express");
 const mongoose = require("mongoose");
 var bodyParser = require("body-parser");
-var adminSignUp = require("../server/controllers/adminRoutes/adminAuthentication");
+var adminSignUp = require("./routes/adminRoutes/adminAuthentication");
 var app = express();
 
+app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -15,7 +16,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //DATA_BASE COLLECTION
 mongoose.connect(
-  "mongodb+srv://hemant1234:3LPDFYFHainIHljg@cluster0.fasyy.mongodb.net/padhakool?retryWrites=true&w=majority",
+  // "mongodb+srv://hemant1234:3LPDFYFHainIHljg@cluster0.fasyy.mongodb.net/padhakool?retryWrites=true&w=majority",
+  'mongodb+srv://jaydeep:jaydeep@cluster0.tkqnm.mongodb.net/padhakool?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

@@ -1,0 +1,100 @@
+.f-padhakool{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 30px/35px var(--unnamed-font-family-raleway);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal normal 2vw/4vw Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin: 10%;
+}
+
+.f-back1{
+  background: var(--unnamed-color-5a189a) 0% 0% no-repeat padding-box;
+background: #5A189A 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.f-p{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/24px var(--unnamed-font-family-raleway);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal normal 2vw/4vw Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin: -5% 0 0 10%;
+}
+
+.subscribe-button{
+  background: var(--unnamed-color-ff9100) 0% 0% no-repeat padding-box;
+  background: #FF9100 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 15px #FF910073;
+  border-radius: 154px;
+  opacity: 1;
+  margin: 10% 0 0 0;
+}
+
+.subscribe-button-text{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-20)/24px Futura Md BT;
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal medium 2vw/4vw Futura Md BT;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+width: 30%;
+
+}
+
+.input-text{
+  width: 50%;
+  /* height: 300px; */
+}
+
+
+.input-box{
+  border: 1px solid var(--unnamed-color-ffffff);
+border: 1px solid #FFFFFF;
+border-radius: 8px;
+opacity: 1;
+}
+
+@media only screen and (max-width: 500px) {
+    
+
+  .f-back1{
+      display: none;
+  }
+
+
+  
+}
+
+@media only screen and (min-width: 500px) {
+  
+
+  .f-back2{
+      display: none;
+  }
+
+  
+  
+}
+
+.f-back2{
+  background: var(--unnamed-color-5a189a) 0% 0% no-repeat padding-box;
+background: #5A189A 0% 0% no-repeat padding-box;
+opacity: 1;
+height: 600px;
+}
+  
+  
+.padhakoolM{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-20)/24px var(--unnamed-font-family-raleway);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+}

@@ -1,0 +1,149 @@
+.flegship-h1{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-60)/var(--unnamed-line-spacing-70) var(--unnamed-font-family-viner-hand-itc);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ff9100);
+text-align: center;
+font: normal normal normal 3vw/5vw Viner Hand ITC;
+letter-spacing: 0px;
+color: #FF9100;
+margin: 5%;
+}
+
+.flegship-h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-60)/var(--unnamed-line-spacing-70) var(--unnamed-font-family-raleway);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-121212);
+text-align: center;
+font: normal normal 600 3vw/5vw Raleway;
+letter-spacing: 0px;
+color: #121212;
+}
+
+.flegship{
+    background: var(--unnamed-color-5a189a) 0% 0% no-repeat padding-box;
+background: #5A189A 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 10px #00000029;
+border-radius: 20px;
+opacity: 1;
+width: 70%;
+}
+
+.flegshipCourse{
+ margin: 10% 0 5% 0;
+}
+
+.flegship-button{
+    background: var(--unnamed-color-ff9100) 0% 0% no-repeat padding-box;
+background: #FF9100 0% 0% no-repeat padding-box;
+border-radius: 154px;
+opacity: 1;
+margin: 5% 0 10% 0%;
+}
+
+.knowmore{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 24px/29px var(--unnamed-font-family-raleway);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal medium 24px/29px Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+.flegship-part2{
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 0px 20px 20px 0px;
+opacity: 1;
+height: 100%;
+}
+
+.flegship-module{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 30px/54px var(--unnamed-font-family-raleway);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-5a189a);
+text-align: center;
+font: normal normal 600 1.5vw/3vw Raleway;
+letter-spacing: 0px;
+color: #5A189A;
+opacity: 1;
+}
+
+.flegship-module2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-32) var(--unnamed-font-family-raleway);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-5a189a);
+text-align: left;
+font: normal normal medium 20px/32px Raleway;
+letter-spacing: 0px;
+color: #5A189A;
+opacity: 1;
+padding: 10% 10% 0 10%;
+}
+
+.hr1{
+    border-bottom: 2px solid #FF9100;
+}
+
+.box1{
+    padding: 10%;
+    color: #5A189A;
+}
+
+.flegship_position{
+   
+   width: 40%;
+   height:"10%";
+   position: relative;
+   left: 65%;
+   top: -225px;
+   z-index: -1; 
+    /* background-image: url("https://res.cloudinary.com/dglwgfgfi/image/upload/v1612503713/padhakool/static%20img/home/urn_aaid_sc_US_8aec101f-33b6-4d76-a500-e31069c40d06_2_e7ps0k.png"); */
+}
+
+
+
+@media only screen and (max-width: 764px) {
+    .flegship{
+        background: var(--unnamed-color-5a189a) 0% 0% no-repeat padding-box;
+background: #5A189A 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 10px #00000029;
+border-radius: 20px;
+opacity: 1;
+    }
+
+    .flegship-part2{
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 0 0 22px 22px;
+        opacity: 1;
+        }
+
+        .flegship-h1{
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-60)/var(--unnamed-line-spacing-70) var(--unnamed-font-family-viner-hand-itc);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-ff9100);
+        text-align: center;
+        font: normal normal normal 5vw/6vw Viner Hand ITC;
+        letter-spacing: 0px;
+        color: #FF9100;
+        margin: 5%;
+        }
+        
+        .flegship-h2{
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-60)/var(--unnamed-line-spacing-70) var(--unnamed-font-family-raleway);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-121212);
+        text-align: center;
+        font: normal normal 600 5vw/6vw Raleway;
+        letter-spacing: 0px;
+        color: #121212;
+        }
+        
+        
+    
+  }
